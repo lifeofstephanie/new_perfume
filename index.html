@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launching soon</title>
+    <link rel="stylesheet" href="wow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="wow.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <section class="sec-01">
+        <div class="container">
+            <h2 class="main-title">Pre-order your signature scent, where elegance meets anticipation!</h2>
+            <p id="countdown" class="countdown">00d 00h 00m 00s</p>
+            <div class="content">
+                <div class="image">
+                    <img src="picture1.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h3>Exclusive First Access to Captivating Aromas</h3>
+                    <p>Be the Trailblazer: Pre-ordering grants you VIP access to our latest fragrance before it hits the
+                        shelves. Immerse yourself in an exclusive olfactory journey that unveils captivating notes,
+                        ensuring you're the first to experience the allure of our exquisite perfume.</p>
+                </div>
+            </div>
+            <div class="media-icons">
+                <a href="" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="" class="icon"><i class="fab fa-youtube"></i></a>
+                <a href="" class="icon"><i class="fab fa-tiktok"></i></a>
+                <a href="" class="icon"><i class="fab fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="sec-02">
+        <div class="container">
+            <h3 class="section-title">Unlock the essence of allure before anyone else does</h3>
+            <div class="content">
+                <div class="image">
+                    <img src="picture2.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="info-title">Limited Editor's Package</h4>
+                    <p>Securing Elegance: Pre-order now to guarantee your spot in the league of luxury. Our limited
+                        edition collector's package, exclusively reserved for pre-orders, boasts bespoke packaging and a
+                        special edition bottle. Elevate your fragrance collection with a touch of opulence that only
+                        early patrons can savor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-03">
+        <div class="container">
+            <h3 class="section-title">Irresistible pre-order bonuses</h3>
+            <div class="content">
+                <div class="media-info">
+                    <li><a href="" class="icon"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="" class="icon"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="" class="icon"><i class="fab fa-youtube"></i> Youtube</a></li>
+                    <li><a href="" class="icon"><i class="fab fa-tiktok"></i> Tiktok</a></li>
+                    <li><a href="" class="icon"><i class="fab fa-regular fa-envelope"></i> Mail</a></li>
+                </div>
+                <div class="image">
+                    <img src="picture3.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="info-title">Irresistible pre-order bonuses</h4>
+                    <p>Early Birds Reap the Rewards: Be among the first to claim enticing pre-order bonuses that elevate
+                        your perfume experience. From complementary scented accessories to exclusive event invitations,
+                        our pre-order perks are designed to add an extra layer of luxury to your purchase. Don't miss
+                        out
+                        – reserve your fragrance now and indulge in these irresistible extras!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        ScrollReveal({
+            reset:true,
+            distance:'60px',
+            duration:2500,
+            delay:400
+        })
+        ScrollReveal().reveal('.main-title, .section-title', {delay:500, origin:'left'})
+        ScrollReveal().reveal('.sec-01 .image, .info', {delay:600, origin:'bottom'})
+        ScrollReveal().reveal('.text-box, .countdown', {delay:700, origin:'right'})
+        ScrollReveal().reveal('.media-icons i', {delay:500, origin:'bottom', interval:200})
+        ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', {delay:500, origin:'top'})
+        ScrollReveal().reveal('.media-info li', {delay:500, origin:'left', interval:200})
+
+
+    </script>
+</body>
+
+</html>
